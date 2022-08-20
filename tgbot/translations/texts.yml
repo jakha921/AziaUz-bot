@@ -1,0 +1,177 @@
+available_langs: ["en", "ru"]
+
+languages: &languages
+  en:
+    text: "English 🇺🇸"
+  ru:
+    text: "Русский 🇷🇺"
+
+en:
+  service:
+    test: "Test message."
+    antiflood: "You are sending messages too fast. Wait a bit."
+  admin:
+    hi: "Hello, admin!"
+    total_users: "Total users in bot: {count}"
+    broadcast_success: "Wow! Broadcasting started."
+    no_broadcast_text: "Please, send command like: <code>/broadcast hello my users!</code>"
+    broadcast_error: "❗️ Error while broadcasting: {err}"
+  user:
+    hi: "Hello, {mention}!"
+    me: "<b>Your data in DB:</b>\n\
+      Telegram ID: <code>{telegram_id}</code>\n\
+      First name: <code>{firstname}</code>\n\
+      Last name: <code>{lastname}</code>\n\
+      Username: <code>{username}</code>\n\
+      Phone: <code>{phone}</code>\n\
+      Language code: <code>{lang_code}</code>"
+    lang: "Choose your language:"
+    lang_choosen: "Language choosen: {lang}"
+    phone: "Send your phone number by button below. 👇"
+    phone_saved: "We will now send a confirmation code to your phone number."
+    close_reply_keyboard: "Keyboard closed."
+    kb:
+      inline:
+        languages: *languages
+
+      reply:
+        close: "Close ❌"
+        phone: "Send my phone number 📲"
+
+    greeting: 'Welcome to telegram bot from <a href="http://asia.uz /">Asia.uz </a>. Here you can find out the card balance, get information about discounts and promotions.'
+    send_contact: 'Please send your contact to get information about the loyalty card and to use our bot'
+    hello: "Hello {user_name}👋"
+    send_code: "We have sent a confirmation code"
+    enter_code:
+    choose_options: "Select an action"
+  menu:
+    loyal_cards: "💳 Loyalty Card"
+    news: "🗞 News"
+    last_news: "Latest news"
+    support: "⚙ Technical support"
+    about_bot: "🤖 About the bot "
+    about: 'Using this bot you can track your loyalty card balance in a supermarket chain Azia.uz , as well as be aware of new promotions and events.
+    
+    
+    All rights reserved IP LLC "Anglesey Food"'
+    card_info: "💰 Balance : {balance}\n💳 Card number : ********{card_numb}"
+    card_have_not: "You haven't registered any cards yet"
+    lang: "🌐Change the language"
+    send_feedback: "Write your feedback and suggestion :"
+    sended_feedback: "Thank you
+    Your message has been sent"
+  user_details:
+    not_registered: "You haven't registered in the store chain yet Azia.uz
+    to use the bot, you need to register"
+    first_name: "Enter your name"
+    last_name: "Enter your last name"
+    dob: "📅 Enter your birthday"
+    dob_formats: "In this form👇\n31/01/2000\n31.1.2000\n"
+    registered: "Thank you we have registered you\nNow you can use this bot"
+    gender:
+      choose_gender: "Choose your gender"
+      male: "🙎‍♂️ male"
+      female: "🙍‍♀️female"
+    marital_status:
+      status: "Choose which marital status you are in"
+      single: "🙋‍♂️single"
+      married: "🙎‍♂️ 🙍‍♀️married"
+      divorced: "🙅‍♂️divorced"
+    occupation:
+      choose_occupation: "Choose your choose occupation"
+      state_service: "State service"
+      private_sector: "Private sector"
+      social_sphere: "Social sphere"
+      pensioner: "Pensioner"
+      student: "Student"
+      housewife: "Housewife"
+      temporarily_unemployed: "Temporarily unemployed"
+
+
+ru:
+  service:
+    test: "Тестовое соощение."
+    antiflood: "Вы слишком быстро отправляете сообщения. Подождите немного."
+  admin:
+    hi: "Привет, админ!"
+    total_users: "Всего пользователей в боте: {count}"
+    broadcast_success: "Ура! Рассылка началась."
+    no_broadcast_text: "Пожалуйста, отправьте команду как: <code>/broadcast привет мои юзеры!</code>"
+    broadcast_error: "❗️ Ошибка при рассылке: {err}"
+  user:
+    hi: "Привет, {mention}!"
+    me: "<b>Ваши данные в БД:</b>\n\
+      Telegram ID: <code>{telegram_id}</code>\n\
+      Имя: <code>{firstname}</code>\n\
+      Фамилия: <code>{lastname}</code>\n\
+      Имя пользователя: <code>{username}</code>\n\
+      Телефонный номер: <code>{phone}</code>\n\
+      Код языка: <code>{lang_code}</code>"
+    lang: "Выберите ваш язык:"
+    lang_choosen: "Язык выбран: {lang}"
+    phone: "Отправьте свой номер телефона по кнопке ниже. 👇"
+    phone_saved: "На ваш телефон номер сейчас отправим код подтверждение."
+    close_reply_keyboard: "Клавиатура закрыта."
+    kb:
+      inline:
+        languages: *languages
+
+      reply:
+        close: "Закрыть ❌"
+        phone: "Отправить мой телефонный номер 📲"
+
+    greeting: 'Добро пожаловать в телеграм бот от <a href="http://asia.uz/">Azia.uz</a>. Тут вы можете узнать баланс карты, получить информацию о скидках и акциях.'
+    send_contact: "Пожалуйста, отправьте ваш контакт для получения информации о карте лояльности и для пользование нашим ботом"
+    hello: "Здравствуйте {user_name}👋"
+    send_code: "Мы отправили код для подтверждение"
+    enter_code: "Введете его👇"
+    choose_options: "Выберите действие"
+  menu:
+    loyal_cards: "💳 Карта лояльности"
+    news: "🗞 Новости"
+    last_news: "Последние новости"
+    support: "⚙ Тех. поддержка"
+    about_bot: "🤖 О боте"
+    about: 'Используя этот бот Вы можете отслеживать ваш баланс карты лояльности в сети супермаркетов Azia.uz, а также быть в курсе новых акций и событий.\n\nВсе права защищены ИП ООО "Anglesey Food"'
+    card_info: "💰 Баланс : {balance}\n💳 Номер карты : ********{card_numb}"
+    card_not_have: "Вы еще не зарегистрировали ни одной карты"
+    lang: "🌐Изменить язык"
+    send_feedback: "Напишите свои отзывы и предложение :"
+    sended_feedback: "Спасибо\nВаше сообщение было отправлено"
+  user_details:
+    not_registered: "Вы еще не зарегистрировались в сети магазинов Azia.uz\nчто б пользоваться ботом, вам нужно зарегистрироваться"
+    first_name: "Введете свое имя"
+    last_name: "Введете свое Фамилию"
+    dob: "📅 Введете свое день рождение"
+    dob_formats: "В таком виде👇\n<b>31/01/2000\n31.1.2000</b>"
+    registered: "Спасибо мы вас зарегистрировали\nТеперь вы можете пользоваться этим ботом"
+    gender:
+      choose_gender: "Выберите свой пол"
+      male: "🙎‍♂️ мужчина"
+      female: "🙍‍♀️женщина"
+    marital_status:
+      status: "Выберите в каком семейном положении вы находитесь"
+      single: "🙋‍♂️не женат(не замужена)"
+      married: "🙎‍♂️ 🙍‍♀️женат(замужена)"
+      divorced: "🙅‍♂️разведен(а)"
+    occupation:
+      choose_occupation: "Выберите свою профессию"
+      state_service: "Государственная служба"
+      private_sector: "Частный сектор"
+      social_sphere: "Социальная сфера"
+      pensioner: "Пенсионер"
+      student: "Студент"
+      housewife: "Домохозяйка"
+      temporarily_unemployed: "Временно безработный"
+
+
+
+
+
+
+
+
+
+
+
+

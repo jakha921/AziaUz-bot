@@ -1,0 +1,245 @@
+[33mcommit 280cc9763b35af465927bc363639c0dfaa1b2fc2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jakha921 <jakha921@gmail.com>
+Date:   Sat Aug 20 18:45:54 2022 +0500
+
+    first release
+
+[33mcommit e0133fc8fa94288ef91e2d6c2f9caac59393bdc0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Mon Jul 4 17:45:03 2022 +0500
+
+    texts - make languages keyboard text as variable
+
+[33mcommit a9d3bda5e585dcd436d9c4ad6878aa63245d85e1[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Fri Jul 1 08:53:45 2022 +0500
+
+    config cast_bool function
+
+[33mcommit 783ab0139305b193627921c8577a6bb588bd88d5[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Mon Jun 27 20:14:22 2022 +0500
+
+    root of translations in data converted to custom 'Map'
+
+[33mcommit 2df55c69dee4a65bb4ec6d2287bdd25fc89d1d6d[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Mon Jun 27 20:12:33 2022 +0500
+
+    root of translations added to the data
+
+[33mcommit bb88b20fdbb91fc65ff8561f84ae130eeebb468b[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Sun Jun 26 11:43:19 2022 +0500
+
+    if lang not found use first one from available_langs
+
+[33mcommit 5f3d3e347ed291b2debbf37a7cff8def007e57e8[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Sun Jun 26 11:24:16 2022 +0500
+
+    User model classname edited, users.py in models changed to models.py
+
+[33mcommit 05f9d436092937346de1364e25b8ec232edb61af[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Thu Jun 23 10:47:01 2022 +0500
+
+    code documentation
+
+[33mcommit ef5b1f2d28c0dd17ece09a148f6ede25a69e0723[m
+Merge: 3324a0d 52f59bc
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 23:17:43 2022 +0500
+
+    Merge pull request #6 from nodir-malikov/deepsource-fix-0fa50b7c
+    
+    Convert string with anomalous backslash into a raw string
+
+[33mcommit 52f59bc70488a2c83efefb85f45a0860388d8d2d[m[33m ([m[1;31morigin/deepsource-fix-0fa50b7c[m[33m)[m
+Author: deepsource-autofix[bot] <62050782+deepsource-autofix[bot]@users.noreply.github.com>
+Date:   Wed Jun 22 18:16:48 2022 +0000
+
+    Convert string with anomalous backslash into a raw string
+
+[33mcommit 3324a0dad99ace7acddd8adf1119e1fc99fa766a[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 23:16:05 2022 +0500
+
+    removed duplicate BigInteger import
+
+[33mcommit 0b14edebfabdccbcd26d50e93ac25f66a653b182[m
+Merge: 128eebb e0946d7
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 23:10:44 2022 +0500
+
+    Merge pull request #3 from nodir-malikov/deepsource-fix-3afcdbef
+    
+    Remove unnecessary f-string
+
+[33mcommit 128eebbc3df7f1a780e0e57587ac77103f9e2eb1[m
+Merge: 26c910c 40ade85
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 23:10:34 2022 +0500
+
+    Merge pull request #4 from nodir-malikov/deepsource-fix-fa03737e
+    
+    Merge collapsible `if` statements
+
+[33mcommit 40ade8536b398187ea79c84d64b69d35fbea05a8[m[33m ([m[1;31morigin/deepsource-fix-fa03737e[m[33m)[m
+Author: deepsource-autofix[bot] <62050782+deepsource-autofix[bot]@users.noreply.github.com>
+Date:   Wed Jun 22 18:08:01 2022 +0000
+
+    Merge collapsible `if` statements
+
+[33mcommit e0946d70319de8520f004cdbe7480b6b628a6593[m[33m ([m[1;31morigin/deepsource-fix-3afcdbef[m[33m)[m
+Author: deepsource-autofix[bot] <62050782+deepsource-autofix[bot]@users.noreply.github.com>
+Date:   Wed Jun 22 18:05:54 2022 +0000
+
+    Remove unnecessary f-string
+
+[33mcommit 26c910ce90155b3fc94c6f28fd4ca30bef0b8564[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 23:02:56 2022 +0500
+
+    deepsource restore
+
+[33mcommit 98b1f0ba11df048aa1dee5a9cc527927219f77c3[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:59:24 2022 +0500
+
+    gitignore upd
+
+[33mcommit 5fbfc9ab30bb49ba4b5c9da824291a47eb6c554f[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:55:37 2022 +0500
+
+    upd readme
+
+[33mcommit b3ce6852a9a27f151a22d4bafeede31270dbb8be[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:53:51 2022 +0500
+
+    upd readme
+
+[33mcommit 223d17fbd909be8a9b544c381eb137139b73d6e4[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:38:44 2022 +0500
+
+    broadcast space
+
+[33mcommit 078af4590f0863d4c976bf7a115fd46107cfd0e7[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:21:45 2022 +0500
+
+    broadcast fix
+
+[33mcommit 32fbf2131c4131f75bbb011cc6f14843e96a5419[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 22:00:16 2022 +0500
+
+    fixed some code, added new features and other improvements
+
+[33mcommit ba86ac7eeb6e3df06dc5ae60cbb2073940e4bfb2[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 19:21:33 2022 +0500
+
+    requirements updated
+
+[33mcommit 2d19e48d12897644ce77b291a7081a9be093d05b[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 19:19:12 2022 +0500
+
+    fix
+
+[33mcommit ce23af1b1e47c65d45ac3c07cd62826df4d5d6d4[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 19:17:26 2022 +0500
+
+    admin broadcasting function
+
+[33mcommit b426dcf24195df2f39e4323fd47e2f208aa685bf[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 18:28:54 2022 +0500
+
+    fixes, optimizations and full translations
+
+[33mcommit 389f7236baac91bee074d9389af604f65d72415c[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 17:21:03 2022 +0500
+
+    translation now in one file
+
+[33mcommit 391ec9eea41c9d37606d29147d9d0b1ddaf87198[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 17:17:58 2022 +0500
+
+    texts items dot access
+
+[33mcommit ce289f634571ab7fb27eaf2879e6cce5d565ef4c[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 17:06:27 2022 +0500
+
+    texts and translation middleware integration
+
+[33mcommit 715029b6246ccb94469883047d5b30545c963210[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:57:03 2022 +0500
+
+    deepsource ignore
+
+[33mcommit 64b75d3d8c1153a3fd35a3dfead94e3d4dfaad49[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:56:04 2022 +0500
+
+    systemd support
+
+[33mcommit b49ad8726c736e616b29b0169664271c630022a7[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:47:52 2022 +0500
+
+    dependencies fixed
+
+[33mcommit 39da0fd2d571842a30845a086fe21e81e2fe65bd[m
+Merge: 52c170a 6522141
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:42:10 2022 +0500
+
+    Merge branch 'master' of https://github.com/nodir-malikov/aiogram_template
+
+[33mcommit 52c170aa6a69e56d101aff5b2fd79f26ef6ab0b6[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:41:43 2022 +0500
+
+    poetry integration
+
+[33mcommit cdae0e0ddbe68f49d28062578c4d0efd2cbe9a31[m
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Wed Jun 22 10:30:30 2022 +0500
+
+    loguru initialization in function
+
+[33mcommit 65221416cbb51c2ebe1fc15dfc686489c9954c02[m
+Merge: e7c1c98 02fdb7c
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Sat Apr 16 09:59:25 2022 +0500
+
+    Merge pull request #2 from nodir-malikov/deepsource-fix-29c9477a
+    
+    Refactor unnecessary `else` / `elif` when `if` block has a `return` statement
+
+[33mcommit 02fdb7cd37437a16bbad913b401bc3bfebdac607[m[33m ([m[1;31morigin/deepsource-fix-29c9477a[m[33m)[m
+Author: deepsource-autofix[bot] <62050782+deepsource-autofix[bot]@users.noreply.github.com>
+Date:   Sat Apr 16 04:58:25 2022 +0000
+
+    Refactor unnecessary `else` / `elif` when `if` block has a `return` statement
+
+[33mcommit e7c1c98585740f3b191c4e039f8d598e4f408927[m
+Merge: 6c144b9 8dbf957
+Author: Nodir Malikov <nodirmalikov2004@yandex.ru>
+Date:   Sat Apr 16 09:57:52 2022 +0500
+
+    Merge pull request #1 from nodir-malikov/deepsource-fix-c9264d44
+    
+    Remove blank lines after docstring
+
+[33mcommit 8dbf9579ee9a0c75329b86c0ed74b92bd2c6cf4f[m[33m ([m[1;31morigin/deepsource
