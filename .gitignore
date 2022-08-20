@@ -9,3 +9,5 @@ logs/
 *.ini
 *.zip
 *.log
+localhos_history.patch
+.idea/
