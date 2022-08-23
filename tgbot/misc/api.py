@@ -33,6 +33,7 @@ def contact_verify(number):
 
 
 def confirm_contact(number: str, code: str):
+    """Get confirmation of contact number"""
     customer_code = {"number": number, "code": code}
     res_code = requests.post(urls['verify-code'], customer_code)
     try:
@@ -105,25 +106,15 @@ def test(token):
     for numb, char in enumerate(token):
         return numb, char
 
-tk = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVfcGhvbmUiOiIrOTk4OTEzMzM5NjM2Iiwic3ViIjoiNjJkYzNjN2I5MTgzZjI0NmMxNDlmMGNlIiwiaWF0IjoxNjYwNjY1MzEzfQ.rOL-hpP4xP5A-gYNYUW-SW5m-44CPdjG0KPR73UrWGI"
-# token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVfcGhvbmUiOiIrOTk4OTAwMDEwMTAxIiwic3ViIjoiNjI3ZGUwZTVmNWE5ZWVmMGY5ZWJhMmJlIiwiaWF0IjoxNjU4ODM5MjcwfQ.ftvBFFqaLQaseOgb282CxY1v9hS-zYKt48faYRBxw-g'
+token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVfcGhvbmUiOiIrOTk4OTAwMDEwMTAxIiwic3ViIjoiNjI3ZGUwZTVmNWE5ZWVmMGY5ZWJhMmJlIiwiaWF0IjoxNjU4ODM5MjcwfQ.ftvBFFqaLQaseOgb282CxY1v9hS-zYKt48faYRBxw-g'
 # token_card = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVfcGhvbmUiOiIrOTk4OTg0NjA1Njg2Iiwic3ViIjoiNjJkYjk3MGE0M2VhOTA3MzBhODFkYjE5IiwiaWF0IjoxNjU4OTMyMTYzfQ.mCHuBAYUC2XLT8WHh5Yq8N0OZopB6-l--cF_5N6HSv8'
 
-data = {
-    'first_name': 'dgfs',
-    'last_name': 'dfgh',
-    'dob': '1.1.2001',
-    'gender': 'female',
-    'marital_status': 'divorced',
-    'occupation': 'Student',
-    'os': 'Telegram'
-}
 
 if __name__ == '__main__':
     # pprint(contact_verify('+998913339636'))
     # pprint(confirm_contact('+998913339636', '9876'))
-    pprint(parse_news(tk))
+    # pprint(parse_news(token))
     # pprint(loyal_cards(token_card))
     # print(post_feedbacks(token, 'jakha'))
     # print(post_user_details(token_card, data))
-    # pprint(test(token_card))
+    pprint(test(token))
