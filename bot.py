@@ -84,7 +84,7 @@ async def main():
     """Main function"""
     init_logger()
     logger.success("Starting bot")
-    # load config from bot.ini file
+    # load config from bot.ini.example.exp file
     config = load_config("bot.ini")
 
     if config.tg_bot.use_redis:

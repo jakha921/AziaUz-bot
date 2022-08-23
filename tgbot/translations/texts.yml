@@ -38,11 +38,12 @@ en:
         close: "Close ❌"
         phone: "Send my phone number 📲"
 
+    press_start: 'Press /start to restart the bot'
     greeting: 'Welcome to telegram bot from <a href="http://asia.uz /">Asia.uz </a>. Here you can find out the card balance, get information about discounts and promotions.'
     send_contact: 'Please send your contact to get information about the loyalty card and to use our bot'
     hello: "Hello {user_name}👋"
     send_code: "We have sent a confirmation code"
-    enter_code:
+    enter_code: 'Enter it👇'
     choose_options: "Select an action"
   menu:
     loyal_cards: "💳 Loyalty Card"
@@ -50,10 +51,7 @@ en:
     last_news: "Latest news"
     support: "⚙ Technical support"
     about_bot: "🤖 About the bot "
-    about: 'Using this bot you can track your loyalty card balance in a supermarket chain Azia.uz , as well as be aware of new promotions and events.
-    
-    
-    All rights reserved IP LLC "Anglesey Food"'
+    about: 'Using this bot you can track your loyalty card balance in a supermarket chain Azia.uz , as well as be aware of new promotions and events.\n\nAll rights reserved IP LLC "Anglesey Food"'
     card_info: "💰 Balance : {balance}\n💳 Card number : ********{card_numb}"
     card_have_not: "You haven't registered any cards yet"
     lang: "🌐Change the language"
@@ -120,6 +118,7 @@ ru:
         close: "Закрыть ❌"
         phone: "Отправить мой телефонный номер 📲"
 
+    press_start: 'Нажмите /start для перезагрузки бота'
     greeting: 'Добро пожаловать в телеграм бот от <a href="http://asia.uz/">Azia.uz</a>. Тут вы можете узнать баланс карты, получить информацию о скидках и акциях.'
     send_contact: "Пожалуйста, отправьте ваш контакт для получения информации о карте лояльности и для пользование нашим ботом"
     hello: "Здравствуйте {user_name}👋"
